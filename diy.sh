@@ -22,11 +22,11 @@ scripts_base_url_3=https://github.com/acoolbook/scripts/raw/main/
 # 将相应作者的脚本填写到以下变量中
 my_scripts_list_1="jd_entertainment.js jd_shakeBean.js jd_marketLottery.js jd_superDay.js jd_xmf.js jd_wish.js jx_nc.js jx_products_detail.js jd_lenovo.js jd_mother_jump.js jd_oneplus.js"
 my_scripts_list_2="jd_axc.js jd_xxl_gh.js jd_df.js jd_mgold.js"
-my_scripts_list_3="jd_factory_component.js"
+my_scripts_list_3="jd_factory_component.js jd_super5g.js"
 
 ## 活动脚本名称1：百变大咖秀、摇京豆、京东超市-大转盘、超级品类日、众筹许愿池、科技打造品质生活、母婴跳一跳、一加盲盒
 ## 活动脚本名称2：东东爱消除、个护爱消除、京喜工厂 金牌碑奖投票
-## 活动脚本名称3：京喜工厂Plus
+## 活动脚本名称3：京喜工厂Plus 5g超级盲盒
 
 ## 目前使用本人收集的脚本库
 
@@ -103,3 +103,4 @@ sed -i "s|bash jd jd_df|bash ${ShellDir}/jd.sh jd_df|g" ${ListCron}
 sed -i "s|bash jd jx_nc|bash ${ShellDir}/jd.sh jx_nc|g" ${ListCron}
 sed -i "s|bash jd jx_products_detail|bash ${ShellDir}/jd.sh jx_products_detail|g" ${ListCron}
 sed -i "s|bash jd jd_mgold|bash ${ShellDir}/jd.sh jd_mgold|g" ${ListCron}
+sed -i "s|bash jd jd_super5g|bash ${ShellDir}/jd.sh jd_super5g|g" ${ListCron}
