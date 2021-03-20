@@ -21,7 +21,7 @@ scripts_base_url_3=https://github.com/acoolbook/scripts/raw/main/
 ##############################  作  者  脚  本  名  称  （必填）  ##############################
 # 将相应作者的脚本填写到以下变量中
 my_scripts_list_1="jd_entertainment.js jd_shakeBean.js jd_marketLottery.js jd_superDay.js jd_xmf.js jd_wish.js jx_nc.js jx_products_detail.js jd_lenovo.js jd_mother_jump.js jd_oneplus.js"
-my_scripts_list_2="jd_axc.js jd_xxl_gh.js jd_df.js jd_mgold.js"
+my_scripts_list_2="jd_axc.js jd_xxl_gh.js jd_df.js jd_mgold.js jd_city_cash.js"
 my_scripts_list_3="jd_factory_component.js jd_super5g.js jd_shake.js"
 
 ## 活动脚本名称1：百变大咖秀、摇京豆、京东超市-大转盘、超级品类日、众筹许愿池、科技打造品质生活、母婴跳一跳、一加盲盒
@@ -105,3 +105,4 @@ sed -i "s|bash jd jx_products_detail|bash ${ShellDir}/jd.sh jx_products_detail|g
 sed -i "s|bash jd jd_mgold|bash ${ShellDir}/jd.sh jd_mgold|g" ${ListCron}
 sed -i "s|bash jd jd_super5g|bash ${ShellDir}/jd.sh jd_super5g|g" ${ListCron}
 sed -i "s|bash jd jd_shake|bash ${ShellDir}/jd.sh jd_shake|g" ${ListCron}
+sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
