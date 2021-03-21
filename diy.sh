@@ -4,7 +4,7 @@
 
 ##############################  作  者  昵  称  （必填）  ##############################
 # 使用空格隔开
-author_list="i-chenzhe shylocks whyour"
+author_list="i-chenzhe shylocks whyour 799953468"
 
 ##############################  作  者  脚  本  地  址  URL  （必填）  ##############################
 # 例如：https://raw.sevencdn.com/whyour/hundun/master/quanx/jx_nc.js
@@ -15,6 +15,7 @@ author_list="i-chenzhe shylocks whyour"
 scripts_base_url_1=https://github.com/acoolbook/scripts/raw/main/
 scripts_base_url_2=https://github.com/acoolbook/scripts/raw/main/
 scripts_base_url_3=https://github.com/acoolbook/scripts/raw/main/
+scripts_base_url_4=https://github.com/acoolbook/scripts/raw/main/
 
 ## 添加更多脚本地址URL示例：scripts_base_url_3=https://raw.sevencdn.com/SuperManito/JD-FreeFuck/main/
 
@@ -23,10 +24,12 @@ scripts_base_url_3=https://github.com/acoolbook/scripts/raw/main/
 my_scripts_list_1="jd_entertainment.js jd_shakeBean.js jd_marketLottery.js jd_superDay.js jd_xmf.js jd_wish.js jx_nc.js jx_products_detail.js jd_lenovo.js jd_mother_jump.js jd_oneplus.js"
 my_scripts_list_2="jd_axc.js jd_xxl_gh.js jd_df.js jd_mgold.js jd_city_cash.js"
 my_scripts_list_3="jd_factory_component.js jd_super5g.js jd_shake.js"
+my_scripts_list_3="jd_paopao.js"
 
 ## 活动脚本名称1：百变大咖秀、摇京豆、京东超市-大转盘、超级品类日、众筹许愿池、科技打造品质生活、母婴跳一跳、一加盲盒
 ## 活动脚本名称2：东东爱消除、个护爱消除、京喜工厂 金牌碑奖投票
 ## 活动脚本名称3：京喜工厂Plus 5g超级盲盒 不定时摇一摇
+## 活动脚本名称4: 京东泡泡大战
 
 ## 目前使用本人收集的脚本库
 
@@ -105,4 +108,10 @@ sed -i "s|bash jd jx_products_detail|bash ${ShellDir}/jd.sh jx_products_detail|g
 sed -i "s|bash jd jd_mgold|bash ${ShellDir}/jd.sh jd_mgold|g" ${ListCron}
 sed -i "s|bash jd jd_super5g|bash ${ShellDir}/jd.sh jd_super5g|g" ${ListCron}
 sed -i "s|bash jd jd_shake|bash ${ShellDir}/jd.sh jd_shake|g" ${ListCron}
+sed -i "s|bash jd jd_paopao|bash ${ShellDir}/jd.sh jd_paopao|g" ${ListCron}
 sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
+#sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
+#sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
+#sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
+#sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
+#sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
