@@ -1,4 +1,3 @@
-  
 #!/bin/sh
 #自定义clone一个仓库示例脚本
   if [ ! -d "/acoolbook/" ]; then
@@ -10,7 +9,7 @@
      git -C /acoolbook pull --rebase
  fi
  ## 拷贝脚本到/scripts/目录下，免得安装依赖
- cp /acoolbook/*.js /scripts/
+ cp /jd_scripts_orz/*.js /scripts/
 
 # #自定义增加crontab任务
  ## sleep $((RANDOM % $RANDOM_DELAY_MAX)); 延迟执行，确保docker配置了RANDOM_DELAY_MAX环境变量
