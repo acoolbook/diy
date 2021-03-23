@@ -9,7 +9,7 @@
      git -C /acoolbook pull --rebase
  fi
  ## 拷贝脚本到/scripts/目录下，免得安装依赖
- cp /jd_scripts_orz/*.js /scripts/
+ cp /acoolbook/*.js /scripts/
 
 # #自定义增加crontab任务
  ## sleep $((RANDOM % $RANDOM_DELAY_MAX)); 延迟执行，确保docker配置了RANDOM_DELAY_MAX环境变量
