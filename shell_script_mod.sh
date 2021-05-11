@@ -5,7 +5,7 @@
      git clone https://github.com/acoolbook/scripts.git /acoolbook
  else
      echo "更新acoolbook脚本相关文件"
-     git -C /acoolbook reset --hard
+     #git -C /acoolbook reset --hard
      #git -C /acoolbook pull --rebase
  fi
  ## 拷贝脚本到/scripts/目录下，免得安装依赖
