@@ -1,12 +1,12 @@
 #!/bin/sh
 #自定义clone一个仓库示例脚本
-  if [ ! -d "/acoolbook/" ]; then
+ if [ ! -d "/acoolbook/" ]; then
      echo "未检查到acoolbook仓库脚本，初始化下载相关脚本"
      git clone https://github.com/acoolbook/scripts.git /acoolbook
  else
      echo "更新acoolbook脚本相关文件"
-     #git -C /acoolbook reset --hard
-     #git -C /acoolbook pull --rebase
+     git -C /acoolbook reset --hard
+     git -C /acoolbook pull --rebase
  fi
  ## 拷贝脚本到/scripts/目录下，免得安装依赖
  cp /acoolbook/*.js /scripts/
